@@ -1,0 +1,46 @@
+# Theme settings
+doks:
+    baseurl:
+    color_theme: # Available themes: blue (default), green, purple, red and yellow
+    header:
+        logo:
+            text: Git Software
+            image:
+        nav:
+            - item_name: Windows
+              item_url: '/windows'
+            - item_name: macOS
+              item_url: '/macos'
+            - item_name: Linux
+              item_url: '/linux'
+            - item_name: Android
+              item_url: '/android'
+            - item_name: iOS
+              item_url: '/ios'
+    footer:
+        content:
+            logo:
+                text: Git Software
+                image: 
+            copyright: Copyright &copy; 2018 Distributed Version Control System <br>MIT Licnese
+        social_list:
+            - network_name: github
+              profile_url: https://www.github.com/dvcs
+    google_analytics:
+        tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
+    comments:
+        disqus_forum_shortname: # Add your disqus forum shortname to activate comments
+
+# SASS settings
+sass:
+    sass_dir: ./dvcs-theme/_sass
+    style: :compressed
+
+# Jekyll settings
+layouts_dir: ./dvcs-theme/_layouts
+includes_dir: ./dvcs-theme/_includes
+exclude: [ 'README.md', 'CHANGELOG.md' ]
+permalink: /:title/
+collections:
+    products:
+        output: true
