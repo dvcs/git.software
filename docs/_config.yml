@@ -1,7 +1,7 @@
 # Theme settings
 doks:
     baseurl:
-    color_theme: # Available themes: blue (default), green, purple, red and yellow
+    color_theme: dvcs
     header:
         logo:
             text: Git Software
